@@ -1,0 +1,21 @@
+{
+    "name": "gibilogic/hidden-entity-bundle",
+    "type": "symfony-bundle",
+    "description": "GiBiLogic Hidden Entity Bundle",
+    "keywords": [ "form", "hidden", "entity", "type" ],
+    "homepage": "http://www.gibilogic.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":     "GiBilogic Snc",
+            "homepage": "http://www.gibilogic.com",
+            "email":    "info@gibilogic.com"
+        }
+    ],
+    "require": {
+        "symfony/symfony": "~2.7"
+    },
+    "autoload": {
+        "psr-4": { "Gibilogic\\HiddenEntityBundle\\": "src/" }
+    }
+}

@@ -1,0 +1,6 @@
+services:
+    gibilogic.form.type.hidden_entity:
+        class: Gibilogic\HiddenEntityBundle\Form\HiddenEntityType
+        arguments: ["@doctrine.orm.entity_manager"]
+        tags:
+            - { name: form.type, alias: hidden_entity }
