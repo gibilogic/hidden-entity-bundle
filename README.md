@@ -1,6 +1,6 @@
 # GiBiLogic HiddenEntityBundle
 
-A small bundle that contains a ready-to-use hidden entity form type for Symfony 2.
+A small bundle that contains a ready-to-use hidden entity form type for Symfony.
 
 This is basically an hidden form type that's used to store an entity ID; a transformer will manage the ID-to-entity and entity-to-ID conversions by using the ObjectManager of Doctrine ORM.
 
@@ -30,10 +30,10 @@ public function buildForm(FormBuilderInterface $builder, array $options)
 {
     $builder
         // ..
-        ->add('category', 'hidden_entity', array(
+        ->add('category', HiddenEntityType::class, [
             'required' => true,
             'class' => 'AppBundle:Category'
-        ))
+        ])
         // ..
     ;
 }

@@ -7,13 +7,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name":     "GiBilogic Snc",
-            "homepage": "http://www.gibilogic.com",
+            "name":     "GiBilogic Srl",
+            "homepage": "https://www.gibilogic.com",
             "email":    "info@gibilogic.com"
         }
     ],
     "require": {
-        "symfony/symfony": "~2.7"
+        "symfony/framework-bundle": "~2.7|~3.0"
     },
     "autoload": {
         "psr-4": { "Gibilogic\\HiddenEntityBundle\\": "src/" }
